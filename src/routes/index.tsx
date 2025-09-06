@@ -25,7 +25,7 @@ theme:'colored'
 }
 
     return (
-        <BrowserRouter>
+        <BrowserRouter  basename="/dev-finance">
             <AuthProvider>
 
                 <Routes>
