@@ -6,7 +6,8 @@ import { initializeGlobalCategories } from "./services/globalCategories.services
 
 
 
-const PORT = env.PORT;
+const PORT = Number(env.PORT) || 3333;
+
 initializeFirebaseAdmin()
 const startServe = async () => {
     try {
