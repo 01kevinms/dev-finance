@@ -5,10 +5,10 @@ import { prismaConnect } from "./config/prisma";
 import { initializeGlobalCategories } from "./services/globalCategories.services";
 import { FastifyListenOptions } from "fastify";
 
-// Garantir que PORT seja número
+// Porta do Render ou fallback
 const PORT = Number(env.PORT) || 3333;
 
-// Inicializar Firebase
+// Inicializa Firebase
 initializeFirebaseAdmin();
 
 const startServe = async () => {
@@ -35,5 +35,4 @@ const startServe = async () => {
   }
 };
 
-// Start
 startServe();

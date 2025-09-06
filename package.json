@@ -4,10 +4,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx tsx watch src/serve.ts",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "start": "node dist/serve.js",
-     "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "_moduleAliases": {
     "@global": "dist/api/components/global",
