@@ -1,4 +1,3 @@
-import type React from "react";
 import type { ButtonHTMLAttributes, ReactNode } from "react";
 
 type ButtonVariant = "primary" | "secondary" | "outline" | "danger" | "success";
