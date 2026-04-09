@@ -48,7 +48,7 @@ const Home = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                         <div>
                             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                                gerencie suas finaças com o <span className="text-primary-500">DevFinance</span>
+                                gerencie suas finanças com o <span className="text-primary-500">DevFinance</span>
                             </h1>
                             <p className="text-lg text-white mb-8">
                                 Uma plataforma simples e eficiene para crotolar siuas depesas e receitas. organizer suas finacas pessoais ou do seu negocia com facilidade
